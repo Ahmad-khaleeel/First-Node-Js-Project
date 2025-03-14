@@ -1,7 +1,10 @@
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// // fruits.shift()
-// fruits.push("Afocado")
-// // console.log(fruits);
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift()
+
+fruits.push("Afocado")
+
+console.log(fruits);
+
 let studentsInfo = [
     firstStudent = {
        "name":"omar",
@@ -39,7 +42,6 @@ for(let i = 0; studentsInfo.length > i; i++ ) {
     console.log(`${studentsInfo[i].name} : ${studentsInfo[i].age + 10} `);
 }
 
-    
 const cars = ['BMW','Marcides','Volvo']
 cars.unshift('Oppel')
 console.log(cars);
@@ -49,3 +51,6 @@ const convertToString = function (array) {
   };
   console.log(convertToString(["Hello", "i", "am", "John", "Doe"]));
 
+
+
+  
